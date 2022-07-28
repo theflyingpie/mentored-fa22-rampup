@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head id="header">
+        <!-- Connects base.css to base.html -->
+        <link href="./styles.css" rel="stylesheet" />
+        <!-- Connects base.js to base.html -->
+        <script src="script.js"></script>
+    </head>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <div>
+            <p class="text">This is the beginning of Mentored!</p>
+            <p class="text">I am super excited!!!</p>
+        </div>
+    <body id="body">
+        <div class="flex-container">
+            <a href="https://codebase.berkeley.edu">Press here to go to Codebase Website</a>
+            <img class="image" src="https://codebase.berkeley.edu/static/238f7857e162c32b372ec34e5e68b6ff/8dcbd/cb-logo-black.png">
+            <img class="image" src="https://larynqi.com/assets/img/denero-crop-2.PNG">
+            <iframe id="iframe" src="https://larynqi.com" title="description"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="interactive">
+            <center>
+                <button class="button" onclick="alert('this is the inline js way – dont do this way !!! 😡');">Press</button>
+                <button class="button" id="my-id" onclick="myFunction()">Press me 2</button>
+            </center>
+        </div>
+        <center>
+            <form class="form" onsubmit="submit();">
+                <label>Username:</label>
+                <input id="username" type="text" name="username" placeholder="xXlarynisawesomeXx">
+                <br><br>
+                
+                <label>E-mail:</label>
+                <input id="email" type="email" name="emailaddress" required="true">
+                <br><br>
+
+                <label>Password:</label>
+                <input id="password" type="password" name="password">
+                <br><br>
+
+                <input type="submit" value="Submit"/>
+            </form>
+    </center>
+    </body>
+</html>
+
+        
